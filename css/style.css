@@ -1,0 +1,36 @@
+@import "reset.css";
+
+.hidden {
+  display: none;
+}
+
+.weather {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.music {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.todo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+#quote {
+  position: absolute;
+  bottom: 0;
+}
