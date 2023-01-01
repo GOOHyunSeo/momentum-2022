@@ -1,0 +1,28 @@
+#greetings {
+  margin-bottom: 30px;
+}
+
+#login-form input {
+  width: 340px;
+  border: none;
+  padding: 5px 10px;
+  font-family: "spongeboy";
+  font-size: 30px;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+#login-form input::placeholder {
+  color: whitesmoke;
+}
+
+.greetings-form__btn {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: white;
+}
+
+#greeting {
+  font-size: 30px;
+}
