@@ -5,7 +5,7 @@
 }
 
 #todo_img {
-  background-image: url("/Users/goohyunseo/Desktop/momentum-2022/christmas/santa_list.jpg");
+  background-image: url("../../christmas/santa_list.jpg");
   background-size: cover;
   height: 400px;
   width: 400px;
