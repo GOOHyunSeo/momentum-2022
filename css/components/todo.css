@@ -1,22 +1,66 @@
-#todo-form input {
+#todo-show {
+  position: fixed;
+  bottom: 0;
+  margin: 20px;
+}
+
+#todo_img {
+  background-image: url("/Users/goohyunseo/Desktop/momentum-2022/christmas/santa_list.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  border: 2px solid rgb(156, 23, 28);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+#todo_img button {
   border: none;
-  padding: 6px 0px;
-  font-size: 16px;
-  width: 300px;
-  border-bottom: 2px solid white;
   background-color: transparent;
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  padding: 17px;
+  color: rgb(205, 33, 40);
+}
+
+#todo-form input {
+  font-family: "spongeboy";
+  border: none;
+  padding: 9px 7px 6px 7px;
+  font-size: 16px;
+  width: 330px;
+  border-radius: 5px;
+  border-bottom: 2px solid transparent;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
   color: white;
 }
 #todo-form input::placeholder {
   color: white;
 }
-
-#todo-list {
-  font-family: "satisfy";
-  font-size: 30px;
+#todo-form input:focus {
+  border-color: white;
 }
 
+.todo {
+  transform: rotate(-15deg);
+}
+#todo-list {
+  color: black;
+  font-family: "satisfy";
+  font-size: 30px;
+  margin: 60px;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #todo-list li button {
   background-color: transparent;
   border: none;
+  margin-right: 110px;
 }

@@ -1,8 +1,22 @@
+const todoShow = document.querySelector("#todo-show");
+const todoImg = todoShow.querySelector("#todo_img");
+const todoBtn = todoImg.querySelector("button");
 const todoForm = document.querySelector("#todo-form");
 const todoInput = todoForm.querySelector("input");
 const todoList = document.querySelector("#todo-list");
 
 const TODOS_KEY = "todos";
+
+function todoClick() {
+  todoImg.classList.remove("hidden");
+}
+todoShow.addEventListener("click", todoClick);
+
+function btnClose() {
+  todoImg.classList.add("hidden");
+  console.log("btnClose clicked!!");
+}
+todoBtn.addEventListener("click", btnClose);
 
 let toDos = [];
 

@@ -2,3 +2,20 @@
   font-size: 14px;
   font-weight: 600;
 }
+#quote span {
+  margin: 3px 0px;
+}
+
+@keyframes characterAnimation {
+  from {
+    transform: translateY(-15px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+#quote span:last-child {
+  animation: characterAnimation 1s ease-in-out;
+}

@@ -10,12 +10,13 @@
   <body>
     <header>
       <div id="weather">
-        <span></span>
-        <span></span>
+        <span class="weather__city"></span>
+        <span class="weather__info"></span>
       </div>
-      <div id="music">music</div>
+      <!-- <div id="music">music</div> -->
     </header>
     <main>
+      <h4 id="today">1996.11.22</h4>
       <h2 id="clock">00:00:00</h2>
       <div id="greetings">
         <form class="hidden greetings-form" id="login-form">
@@ -34,26 +35,36 @@
       <form id="todo-form">
         <input
           type="text"
-          placeholder="write a todo and press enter"
+          placeholder="Type the reason to ask Santa for a gift."
           required
         />
       </form>
     </main>
     <footer>
-      <div class="todo">
-        <ul id="todo-list"></ul>
-      </div>
       <div id="quote">
         <span></span>
         <span></span>
       </div>
     </footer>
+    <div id="todo-show">
+      <div id="todo_img" class="hidden">
+        <button>
+          <i class="fas fa-times fa-lg"></i>
+        </button>
+        <div class="todo">
+          <ul id="todo-list"></ul>
+        </div>
+      </div>
+      click to show reasons
+      <i class="fas fa-candy-cane"></i>
+    </div>
 
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/date.js"></script>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
