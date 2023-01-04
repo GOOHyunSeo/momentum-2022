@@ -21,16 +21,17 @@
   position: absolute;
   right: 0;
   font-size: 20px;
-  padding: 17px;
   color: rgb(205, 33, 40);
+  margin: 10px;
 }
 
 #todo-form input {
   font-family: "spongeboy";
   border: none;
-  padding: 9px 7px 6px 7px;
-  font-size: 16px;
-  width: 330px;
+  padding: 10px 7px 6px 7px;
+  font-size: 14px;
+  width: 390px;
+  height: 20px;
   border-radius: 5px;
   border-bottom: 2px solid transparent;
   background-color: rgba(0, 0, 0, 0.3);
@@ -45,22 +46,30 @@
 }
 
 .todo {
-  transform: rotate(-15deg);
+  transform: rotate(-17deg);
+  width: 230px;
+  height: 280px;
+  position: fixed;
+  left: 100px;
+  bottom: 100px;
+  overflow: auto;
 }
 #todo-list {
   color: black;
   font-family: "satisfy";
   font-size: 30px;
-  margin: 60px;
 }
 
 #todo-list li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
+}
+#todo-list li span {
+  width: 200px;
 }
 #todo-list li button {
   background-color: transparent;
   border: none;
-  margin-right: 110px;
 }
